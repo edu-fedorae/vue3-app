@@ -1,6 +1,6 @@
 <template id="">
   <div class="">
-    Root 1
+    {{ this.$store.getters.appName }}
   </div>
   <div class="">
     Root 2
